@@ -11,6 +11,7 @@ public class Main {
         managerBook.menuBook();
         managerBook.informationProgrammingBook();
         managerBook.informationFictionBook();
+        System.out.println("\n");
 
         //Hiển thị thông tin Book đã nhập
         //Tính tổng các loại sách

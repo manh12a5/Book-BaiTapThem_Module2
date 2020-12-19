@@ -101,8 +101,6 @@ public class ManagerBook {
         for (int i = 0; i < arrayBook.size(); i++) {
             if (search == arrayBook.get(i).getPrice()) {
                 System.out.println(arrayBook.get(i));
-            } else {
-                System.out.println("Not Found");
             }
         }
     }
