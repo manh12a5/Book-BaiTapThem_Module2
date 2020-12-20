@@ -11,7 +11,7 @@ public class Main {
         managerBook.menuBook();
         managerBook.informationProgrammingBook();
         managerBook.informationFictionBook();
-        System.out.println("\n");
+        System.out.print("\n");
 
         //Hiển thị thông tin Book đã nhập
         //Tính tổng các loại sách
@@ -26,7 +26,7 @@ public class Main {
             System.out.println("6. Tìm kiếm ngôn ngữ Java trong ProgrammingBook");
             System.out.println("7. Tìm kiếm giá tiền");
             System.out.println("0. Exit");
-            System.out.println("Choice Number: ");
+            System.out.print("Choice Number: ");
             number = scanner.nextInt();
             switch (number) {
                 case 1:
@@ -52,7 +52,7 @@ public class Main {
                     managerBook.searchPrice();
                     break;
             }
-            System.out.println("\n");
+            System.out.print("\n");
         } while (number != 0);
         System.exit(0);
 

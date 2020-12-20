@@ -51,12 +51,14 @@ public class ManagerBook {
         System.out.println("Thông tin Programming Book");
         for (int i = 0; i < arrProgrammingBook.size(); i++) {
             System.out.println(arrProgrammingBook.get(i).toString());
+            System.out.print("\n");
         }
     }
 
     public void listFictionBook() {
         for (int i = 0; i < arrFictionBook.size(); i++) {
             System.out.println(arrFictionBook.get(i).toString());
+            System.out.print("\n");
         }
     }
 
